@@ -388,6 +388,9 @@ label {
 	background-size: cover;
 	z-index: -100;
 }
+.parallax.section{
+	background-image: url(../img/virtuclass_banner_mobile.png);
+}
 /*	Navbar	==================================================*/
 .navbar-inverse .navbar-brand {
 	padding:30px 15px;
@@ -432,6 +435,7 @@ label {
 }
 #hero .herotext {
 	padding:160px 0px;
+	float: left;
 }
 #hero h1 {
 	font-size:50px;
@@ -441,6 +445,19 @@ label {
 }
 #hero .btn {
 	font-size:12px;
+}
+.img-vc-logo {
+	float: right;
+	padding-top: 80px;
+	width: 300px;
+	height: 400px;
+}
+.upper-logo{
+	padding-left: 8px;
+	padding-top: 8px;
+	width: 100px;
+	height: 100px;
+	display: none;
 }
 /*	Features	==================================================*/
 #features {
@@ -462,8 +479,8 @@ label {
 }
 .service-box {
 	margin-bottom:30px;
-	background-color:#fff;
-	color:#444;
+	background-color: #A90011;
+	color:rgb(255, 255, 255);
 	padding:30px;
 	  position: relative;
 }
@@ -1255,7 +1272,7 @@ img.mfp-img {
 					padding-right:30px;
 	}
 	#hero h1 {
-					font-size:38px;
+					font-size:20px;
 	}
 	#hero p.lead {
 					font-size:1.5em;
@@ -1263,4 +1280,25 @@ img.mfp-img {
 	.faq-block {
 					margin: 0;
 	}
-}
+	.navbar-toggle{
+		margin-right: 20px;
+	}
+	.img-vc-logo{
+		width: 10px;
+		height: 10px;
+		float: right;
+	}
+	.youtube-embed{
+		width: 300px;
+		height: 200px;
+	}
+	#parallax{
+		background-image: url(../img/reverse_bg.png);
+	}
+	.upper-logo{
+		display: block;
+		width: 200px;
+		height: 200px;
+		padding: 5px;
+	}
+}	
